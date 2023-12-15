@@ -1,0 +1,33 @@
+{
+  "name": "csidh-wasm",
+  "version": "1.0.0",
+  "description": "CSIDH-WASM",
+  "main": "dist/node/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node dist/node/test.js",
+    "build:node": "emmake make",
+    "build:browser": "emmake make browser"
+  },
+  "keywords": [
+    "CSIDH",
+    "CSIDH.js",
+    "CSIDH-wasm",
+    "CSIDH-js",
+    "CSIDH-node",
+    "CSIDH-web",
+    "CSIDH-browser",
+    "CSIDH-assembly",
+    "CSIDH-WebAssembly",
+    "CSIDH-EMSCRIPTEN",
+    "WebAssembly",
+    "WASM",
+    "EMSCRIPTEN"
+  ],
+  "author": "Andrei Botez andrei.botez@protonmail.com",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/idzer0lis/cisdh-wasm/issues"
+  },
+  "homepage": "https://github.com/herumi/cisdh-wasm#readme"
+}

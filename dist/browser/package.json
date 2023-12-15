@@ -1,0 +1,11 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "./src/index-browser.js",
+  "author": "Andrei Botez <andrei.botez@protonmail.com> (https://github.com/idzer0lis/)",
+  "license": "GPL",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
