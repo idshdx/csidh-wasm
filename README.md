@@ -35,11 +35,11 @@ const bob_pk = lib.publicKey(bob_sk);
 const alice_ss = lib.sharedKey(bob_pk, alice_sk);
 const bob_ss = lib.sharedKey(alice_pk, bob_sk);
 
-const string_key = csidh.encodeBase64(any_key);
-const buffered_key = csidh.decodeBase64(string_key);
+const string_key = lib.encodeBase64(any_key);
+const buffered_key = lib.decodeBase64(string_key);
 
-const is_valid_pk = csidh.checkPublicKey(string_pk) // true
-const is_valid_also = csidh.checkPublicKey(buffered_pk) // true
+const is_valid_pk = lib.checkPublicKey(string_pk) // true
+const is_valid_also = lib.checkPublicKey(buffered_pk) // true
 
 console.log(alice_sk.constructor.name); // Int8Array
 console.log(alice_pk.constructor.name); // BigUint64Array
