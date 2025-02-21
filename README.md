@@ -24,7 +24,7 @@ Opinions are most welcomed.
 ```
 import CSIDH from "csidh-wasm"; // or from "./dist/node/index.js";
 
-const csidh = await CSIDH(); // wait for the wasm runtime to initialize
+const lib = await CSIDH(); // wait for the wasm runtime to initialize
 
 const alice_sk = lib.secretKey(); 
 const alice_pk = lib.publicKey(alice_sk);
